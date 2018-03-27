@@ -18,7 +18,7 @@
 	<div class="top">
 		<div class="top-text">发言讨论结束，大家请投票</div>
 		<div class="audioIcon">
-			<img src="images/23.png">
+			<img src="images/23.png" class="sound">
 			<audio src="财富自由.mp3" >您的浏览器不支持audio</audio>
 		</div>
 	</div>
@@ -184,3 +184,17 @@
     <script src="bootstrap.min.js"></script>
 </body>
 </html>
+<script type="text/javascript">
+	$(function() {
+		var a=true;
+		$('.sound').click(function(event){
+			if (a==true) {
+				a=false;
+				$('audio')[0].pause();
+			}else{
+				a=true;
+				$('audio')[0].play();
+			}
+		});
+	});
+</script>
