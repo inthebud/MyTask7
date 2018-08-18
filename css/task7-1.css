@@ -1,8 +1,12 @@
 html{
 	font-size: 62.5%;
 }
-*{
+body{
 	margin:0;padding:0;
+}
+body{
+	max-width: 51rem;
+	margin:0 auto;
 }
 
 header{
@@ -137,4 +141,14 @@ footer{
 
 .footerIcon1,.footerIcon2,.footerIcon3,.footerIcon4{
 	background-color: #f0f0f0;
+}
+
+.alert-background{
+	position: fixed;
+	top: 0;bottom: 0;
+	max-width: 51rem;
+	background-color: rgba(0,0,0,0.1);
+}
+.alert{
+
 }
