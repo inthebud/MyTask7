@@ -34,5 +34,8 @@ function setting(event){
 	}
 }
 function jump(){
-	window.location.href="task02-flop1.html"
+	window.location.href="task02-flop1.html";
+}
+function jumpback(){
+	window.location.href="task7-1.html";
 }

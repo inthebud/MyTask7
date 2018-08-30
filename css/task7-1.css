@@ -26,7 +26,7 @@ header{
 
 main{
 	background-color: #f0f0f0;
-	height: 110rem;
+	height: 80rem;
 	width: 100%;
 	text-align: center;padding-top: 1rem;
 }
@@ -63,7 +63,7 @@ main{
 
 .options{
 	background-color: white;
-	height: 100rem;
+	height: 70rem;
 	width: 90%;
 	margin: 1rem auto 0;
 	border: solid #a2a2a2 0.1rem;
@@ -143,12 +143,3 @@ footer{
 	background-color: #f0f0f0;
 }
 
-.alert-background{
-	position: fixed;
-	top: 0;bottom: 0;
-	max-width: 51rem;
-	background-color: rgba(0,0,0,0.1);
-}
-.alert{
-
-}

@@ -8,6 +8,7 @@ body,p{
 body{
 	max-width: 52rem;
 	margin:0 auto;
+
 }
 button{
 	background-color: none;
@@ -15,12 +16,17 @@ button{
 	border-width: 0;
 }
 .header1{
+	position: fixed;
+	top: 0;
 	background-color: #29bde0;
+	max-width: 52rem;
+	width: 100%;
 	height: 3rem;
-	padding:1rem 1rem;
+	padding:1rem 0rem;
 }
 .header1-img{
 	height: 3rem;
+	margin-left: 1rem;
 }
 .header2{
 	font-size: 2.5rem;
@@ -29,7 +35,7 @@ button{
 }
 .header2-inner{
 	margin: 0.5rem;
-	padding:1rem 0;
+	padding:6rem 0 1rem 0;
 	box-shadow: 3px 3px 3px 1px #e2e2e2;
 }
 .roles{
@@ -71,10 +77,12 @@ button{
 	font-weight: 600;
 	color: #fab344;
 	text-align: center;
+	background-color:#efefef;
+	border-radius: 5px;
 }
 .inputtext:focus{
 	background-color: #e2e2e2;
-	border-radius: 5px;
+	
 }
 .seting-text2{
 	font-size: 1.5rem;
