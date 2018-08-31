@@ -34,7 +34,15 @@ function setting(event){
 	}
 }
 function jump(){
-	window.location.href="task02-flop1.html";
+	sum =document.getElementById("inputid").value;
+	if (sum>3 && sum<19){
+		window.location.href="task02-flop1.html";
+	}else{
+		document.getElementById("keelertext").innerHTML="杀手"+ "&emsp;" + "人";
+		document.getElementById("civiliantext").innerHTML="平民"+ "&emsp;" + "人";
+		document.getElementById('hiddenalert').style.display='block';
+	}
+	
 }
 function jumpback(){
 	window.location.href="task7-1.html";

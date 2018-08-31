@@ -9,6 +9,13 @@ body{
 	max-width: 52rem;
 	margin:0 auto;
 }
+.body-inner{
+	max-width: 52rem;
+	height: 100vh;
+	margin:0 auto;
+	background-color: #29bde0;
+
+}
 header,main,footer{
 	background-color: #29bde0;
 	color: white;
@@ -40,7 +47,6 @@ header{
 }
 main{
 	padding-top: 3rem;
-	padding-bottom: 40rem;
 }
 .card{
 	width: 80%;
