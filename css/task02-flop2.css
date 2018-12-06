@@ -32,12 +32,12 @@ header{
 	flex-grow: 0;
 }
 main{
+	height: 100vh;
 	padding-top: 3rem;
-	padding-bottom: 20rem;
 }
 .card{
 	width: 80%;
-	height: 55rem;
+	height: 30rem;
 	margin:auto;
 	background-color: #ffedc5;
 	border:solid 4px white;
@@ -58,7 +58,7 @@ main{
 	text-align: center;
 }
 .main-img{
-	width: 50%;
+	width: 128px;
 }
 .role{
 	margin:1rem auto;
@@ -71,17 +71,21 @@ main{
 	color: #f56b81;
 	font-weight: 700;
 }
-.notice{
+.notice-div{
+	text-align: center;
 	border-top: solid 2px white;
-	margin-top: 2rem;
-	padding-top: 2rem;
-	font-size: 2rem;
+}
+.notice{
+	display: inline-block;
+	text-align: left;
+	padding:1rem 1rem 0 1rem;
+	font-size: 1.8rem;
 	color: #fbb435;
 	font-weight: 700;
 }
 footer{
 	position: fixed;
-	bottom: 3rem;
+	bottom: 2rem;
 	width: 100%;
 	max-width: 52rem;
 	font-size: 3rem;

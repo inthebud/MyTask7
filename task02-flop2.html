@@ -14,17 +14,20 @@
 	</header>
 	<main>
 		<div class="card">
-			<div class="num">1</div>
+			<div class="num" id="number">1</div>
 			<div class="card-inner">
 				<img class="main-img" src="images/翻牌01.png">
-				<p class="role">角色：幽灵</p>
-				<p class="word">词组：西伯利亚</p>
-				<p class="notice">想办法猜到人的词，同时还要注意不要暴露自己哦</p>
+				<p class="role" id="myRole">角色：幽灵</p>
+				<div class="notice-div">
+					<p class="notice">想办法猜到人的词，同时还要注意不要暴露自己哦</p>
+				</div>
+				
 			</div>
 		</div>
 	</main>
 	<footer>
-		<div class="footer-inner">隐藏并传递给2号</div>
+		<div class="footer-inner" id="footer" onclick="jump()">隐藏并传递给2号</div>
 	</footer>
+	<script type="text/javascript" src="js/task02-flop2.js"></script>
 </body>
 </html>

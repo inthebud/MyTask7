@@ -9,7 +9,7 @@
 <body>
 	<div class="body-inner">
 		<header>
-			<div class="header-flex">
+			<div class="header-flex" onclick="jumpback()">
 				<img class="header-img1" src="images/翻牌1.png">
 				<div>查看身份</div>
 				<img class="header-img2" src="images/22.png">
@@ -17,15 +17,16 @@
 		</header>
 		<main>
 			<div class="card">
-				<div class="num">1</div>
+				<div class="num" id="number">1</div>
 				<div class="card-inner">
 					<img class="main-img" src="images/翻牌02.png">
 				</div>
 			</div>
 		</main>
 		<footer>
-			<div class="footer-inner">查看1号身份</div>
+			<div class="footer-inner" id="footer" onclick="jump()">查看1号身份</div>
 		</footer>
 	</div>
+	<script type="text/javascript" src="js/task02-flop1.js"></script>
 </body>
 </html>
