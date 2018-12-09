@@ -27,11 +27,8 @@ function setting(event){
 			role[roleIndex[i]] = "杀手";
 		}
 		console.log(role);
-		//sessionStorage.roles=1;
-		
 		sessionStorage.roles= JSON.stringify(role);
-		var obj = sessionStorage.roles;
-		console.log(obj);
+		
 
 	}else{
 		document.getElementById("keelertext").innerHTML="杀手"+ "&emsp;" + "人";
